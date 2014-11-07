@@ -32,6 +32,6 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is basically a rebuild
-  grunt.registerTask('default', ['concat', 'uglify', 'watch']);
-  grunt.registerTask('build', ['concat', 'uglify']);
+  grunt.registerTask('default', ['concat', 'uglify', 'compass', 'watch']);
+  grunt.registerTask('build', ['concat', 'uglify', 'compass']);
 };

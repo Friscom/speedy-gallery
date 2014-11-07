@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 75em;
+    margin: 3em auto;
+}

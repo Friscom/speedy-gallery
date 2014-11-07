@@ -8,5 +8,12 @@ module.exports = {
 		options: {
 		  spawn: false,
 		}
-	}
+	},
+	css: {
+		files: ['src/css/sources/*.scss'],
+		tasks: ['compass'],
+		options: {
+			spawn: false,
+		}
+	}	
 }

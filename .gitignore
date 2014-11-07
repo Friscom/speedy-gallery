@@ -1,2 +1,5 @@
 /node_modules
 /vendor
+/speedy-gallery/nbproject/private/
+/nbproject
+/.sass-cache
