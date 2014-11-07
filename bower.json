@@ -1,0 +1,8 @@
+{
+  "name": "speedy-gallery",
+  "version": "1.0.0",
+  "author": "velPL , gwwiazdka @ friscom",
+  "dependencies": {
+    "jquery": "~1.11.1"
+  }
+}
