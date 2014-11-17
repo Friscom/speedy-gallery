@@ -30,12 +30,12 @@
 	</div>
 	
 	
-	<script src="../vendor/jquery/dist/jquery.mins.js" defer async></script>
-	<script src="../vendor/picturefill/dist/picturefill.min.js" defer async></script>
-	<script src="../dist/speedy-gallery.min.js" defer async></script>
+	<script src="../vendor/jquery/dist/jquery.min.js" defer></script>
+	<script src="../vendor/picturefill/dist/picturefill.min.js" defer></script>
+	<script src="../dist/speedy-gallery.min.js" defer></script>
 	<script>
 	    window.onload = function() { // wait upon all gets loaded and then go - this is to prevent render blocking of the page
-		
+		$('.speedy-gallery').speedygallery();
 	    };
 	</script>
     </body>
